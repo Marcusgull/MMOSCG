@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<title>Fancy Scroll Test</title>
+		<!Script lenken under må være med for å hente in JavaScript dokumentet!>
+		<script type="text/JavaScript" src="Scroll.js"></script>
+    </head>
+    <body>
+		<! - Har lagt til CSS direkte i HTML her for enkelhetens skyld
+		dette er ikke anbefalt!>
+		<style media="screen" type="text/css">
+		#mid {
+			width: 90%;
+			height: 2500px;
+			background-color: Gray;
+			margin-left: 5%;
+		}
+		header {
+			margin-top: -15px;
+			width: 105%;
+			margin-left: -15px;
+			height: 150px;
+			background-color: Red;
+		}
+		footer {
+			margin-left: -15px;
+			width: 105%;
+			height: 150px;
+			background-color: Red;
+		}
+		button {
+			height: 50px;
+			width: 10%;
+			margin-left: 45%;
+			margin-top: 50px;
+		}
+		p {
+			width: 100%;
+			text-align: center;
+		}
+		body {
+			overflow-x: hidden;
+		}
+		</style>
+		<header>
+			<!Her kommer knappen, denne skal scrolle til bunnen!>
+			<button onclick="ScrollToPoss(2500, 1)">Gå til bunnen!</button>
+			<p>Se på html dokumentet for å se hvordan knappen virker</p>
+		</header>
+		<div id="mid">
+		</div>
+		<footer>
+			<!Her kommer knappen, denne skal scrolle til toppen!>
+			<button onclick="ScrollToPoss(0, 1)">Gå til toppen!</button>
+			<p>Se på html dokumentet for å se hvordan knappen virker</p>
+		</footer>
+    </body>
+</html>
