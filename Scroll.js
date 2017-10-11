@@ -19,3 +19,17 @@ function ScrollToPoss(dis, speed) {
         }
     }
 }
+
+window.onscroll = MoveNavBar("NavBar", 0, 100);
+
+function MoveNavBar(id, limit) {
+	var obj = document.getElementById(id);
+	var pos = window.scrollY;
+	
+	if(pos < limit) {
+		obj.style.position = relative;
+	}
+	else {
+		obj.style.position = fixed;
+	}
+}
