@@ -6,7 +6,8 @@
 		<!Script lenken under må være med for å hente in JavaScript dokumentet!>
 		<script type="text/JavaScript" src="Scroll.js"></script>
     </head>
-    <body>
+	<!Ny funksjon som får navbaren til å bli fixed når brukeren scroller!>
+    <body onscroll="MoveNavBar('nav',150)">
 		<! - Har lagt til CSS direkte i HTML her for enkelhetens skyld
 		dette er ikke anbefalt!>
 		<style media="screen" type="text/css">
@@ -42,12 +43,20 @@
 		body {
 			overflow-x: hidden;
 		}
+		Nav {
+			width: 105%;
+			margin-left: -15px;
+			height: 50px;
+			background-color: blue;
+		}
 		</style>
 		<header>
 			<!Her kommer knappen, denne skal scrolle til bunnen!>
 			<button onclick="ScrollToPoss(2500, 1)">Gå til bunnen!</button>
 			<p>Se på html dokumentet for å se hvordan knappen virker</p>
 		</header>
+		<nav>
+		</nav>
 		<div id="mid">
 		</div>
 		<footer>
