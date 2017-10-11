@@ -3,6 +3,7 @@
     <title> WebSchool</title>
 </head>
 <body>
+    <div class=nav>
     <ul>
         <li>Home</li>
             <h1> War and its effect on education </h1>
@@ -22,11 +23,10 @@
         <li>Funcionalities</li>
             <h1> What do we offer? </h1>
             
-                <
                 
         <li>About Us</li>
             <h2>Headquarters</h2>
-                Ingens vei 0, Oslo, 0000.
+                Ingens vei 0, Oslo, 0000 - Norway.
                 
             <h2> Developers </h2>
             
@@ -34,5 +34,6 @@
     </ul>
     
     <footer>**http://www.savethechildren.org/site/apps/nlnet/content2.aspx?c=8rKLIXMGIpI4E&b=8943305&ct=14201753&notoc=1</footer>
+    </div>
 </body>
 </html>
