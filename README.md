@@ -13,14 +13,24 @@
             
             <p> Before the start of the civil war in March 2011, Syria was a country that was capable of providing for its people, with a rate of school enrollment of almost 100%. Nowadays, due to armed groups targeting schools, schoolchildren, and teachers as military strategy, there are almost 2.8 million children out of school.** </p>
             
-        <li>Purpose</li>
-            <h2> Your future in the palm of your hands </h2>
+        <li>Aim</li>
+            <h1> Your future in the palm of your hands </h1>
             
-             <p> The purpose of our app is to give the possibility for Syrian children, teenagers and adults to whom teaching was made impossible due to war to continue with their education, and develop their skills, while they are at home or, for example, in a foreign country. They will have the possibility to get the same subjects they were going to be taught at their own schools, and the app is developed so it adapts to the users own level of knowledge. In this way, they will be provided the correct level of dificulty and be challenged accordingly, to encourage our users to continue using the app until they fulfill the course. 
+             <p> Our aim is to provide education in the form of a Self-Learning Programme designed to encourage children to continue studying at home, in community learning centres and even abroad, using the self-learning materials where possible. It is provided in the form of an app to make learning easier and fun. They will have the possibility to get the same subjects they were going to be taught at their own schools, and the app is developed so it adapts to the users own level of knowledge. In this way, they will be provided the correct level of dificulty and be challenged accordingly, to encourage our users to continue using the app until they fulfill the course. 
             
             
         <li>Funcionalities</li>
+            <h1> What do we offer? </h1>
+            
+                <
+                
         <li>About Us</li>
+            <h2>Headquarters</h2>
+                Ingens vei 0, Oslo, 0000.
+                
+            <h2> Developers </h2>
+            
+            //Studenters navn og studentnummer??
     </ul>
     
     <footer>**http://www.savethechildren.org/site/apps/nlnet/content2.aspx?c=8rKLIXMGIpI4E&b=8943305&ct=14201753&notoc=1</footer>
