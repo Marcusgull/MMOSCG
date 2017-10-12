@@ -1,12 +1,18 @@
 .background {
-	background-color: #dbf8fc;
+	background-color: #d6ffda;
 }
-.header {
-	background-color: #9bf998;
-}
-.navbar {
+.header-item {
 	background-color: #66a0ff;
 }
+.navbar {
+	background-color: #dbf8fc;
+}
 .navbar-item:hover {
-	background-color: #adccff;
+	background-color: white;
+}
+.text-div {
+	background-color: white;
+}
+.text-title {
+	color: #66a0ff;
 }
