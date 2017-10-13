@@ -1,18 +1,19 @@
 body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #eaf1ff;
 }
-
 /* Components
    ====================================== */
-
-.header {
+/*Byttet fra en class til en tag, vi har ingen andre elementer som bruker tagen så lettere å bruke den -Kristoffer*/
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 5px;
     background-color: #66a0ff;
     overflow: hidden;
+	height: 150px;
 }
 
 .header-item {
@@ -20,9 +21,11 @@ body {
     flex: 1;
 }
 
-.header-item.logo {
+.logo {
     flex: 0 0 100px;
     text-align: center;
+	height: auto;
+	width: 15%;
 }
 
 .header-logo {
@@ -33,13 +36,16 @@ body {
     color: #fff;
     font-size: 3rem;
 }
-
-.navbar {
+/*Byttet fra en class til en tag, vi har ingen andre elementer som bruker tagen så lettere å bruke den -Kristoffer*/
+nav {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+	height: 50px;
+	width: 100%;
     box-shadow: 0 4px 2px -2px rgba(211,211,211,0.4);
+	background-color: #154ec1;
 }
 
 .navbar-item {
@@ -57,4 +63,18 @@ body {
 
 .navbar-item:hover {
     border-bottom: 2px solid #66a0ff;
+}
+
+#mid {
+	height: 5000px;
+	width: 90%;
+	background-color: white;
+	margin-left: 5%;
+}
+
+#Title {
+	width: 70%;
+	text-align: center;
+	font-family: Indie Flower;
+	font-size: 80px;
 }
