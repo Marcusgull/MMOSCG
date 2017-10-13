@@ -46,7 +46,6 @@ nav {
 	width: 100%;
     box-shadow: 0 4px 2px -2px rgba(211,211,211,0.4);
 	background-color: #154ec1;
-	position: sticky;
 }
 
 .navbar-item {
@@ -66,10 +65,9 @@ nav {
     border-bottom: 2px solid #66a0ff;
 }
 
-#mid {
+.content {
 	width: 90%;
 	background-color: white;
-	margin-left: 5%;
 }
 
 #Title {
