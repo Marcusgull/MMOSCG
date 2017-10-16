@@ -5,15 +5,14 @@ body {
 }
 /* Components
    ====================================== */
-/*Byttet fra en class til en tag, vi har ingen andre elementer som bruker tagen så lettere å bruke den -Kristoffer*/
-header {
+   
+.header {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 5px;
     background-color: #66a0ff;
     overflow: hidden;
-	height: 150px;
 }
 
 .header-item {
@@ -21,11 +20,9 @@ header {
     flex: 1;
 }
 
-.logo {
+.header-item.logo {
     flex: 0 0 100px;
     text-align: center;
-	height: auto;
-	width: 15%;
 }
 
 .header-logo {
@@ -36,16 +33,13 @@ header {
     color: #fff;
     font-size: 3rem;
 }
-/*Byttet fra en class til en tag, vi har ingen andre elementer som bruker tagen så lettere å bruke den -Kristoffer*/
-nav {
+
+.navbar {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-	height: 50px;
-	width: 100%;
     box-shadow: 0 4px 2px -2px rgba(211,211,211,0.4);
-	background-color: #154ec1;
 }
 
 .navbar-item {
