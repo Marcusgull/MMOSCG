@@ -25,7 +25,6 @@ function MoveNavBar(id, head) {
 		var pos = window.scrollY;
 		var objhed = document.getElementById(head);
 		var limit = objhed.offsetHeight;
-		console.log(limit);
 	
 		if(pos < limit) {
 			obj.style.position = "relative";
