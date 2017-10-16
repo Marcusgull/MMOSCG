@@ -65,11 +65,9 @@ nav {
     border-bottom: 2px solid #66a0ff;
 }
 
-#mid {
-	height: 5000px;
+.content {
 	width: 90%;
 	background-color: white;
-	margin-left: 5%;
 }
 
 #Title {

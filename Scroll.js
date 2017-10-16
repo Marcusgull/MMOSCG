@@ -2,15 +2,15 @@
 //Dis er hvor du skal "lande" 0-for toppen, mens speed er hastigheten
 var load = false;
 function ScrollToPoss(dis, speed) {
-	var dir = Math.ceil(window.scrollY/10)*10;
+	var dir = Math.ceil(window.scrollY/100)*100;
 	console.log(dir);
 	if (dir < dis) {
-		var dr = 10;
+		var dr = 100;
 	}
 	if (dir > dis) {
-		var dr = -10;
+		var dr = -100;
 	}
-    var id = setInterval(frame, speed);
+    var id = setInterval(frame, speed/100);
     function frame() {
         if (dir == dis) {
             clearInterval(id);
