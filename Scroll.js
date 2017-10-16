@@ -1,6 +1,5 @@
 //Funskjonen virker som en smooth-scroll når gitt argumentene dis og speed
 //Dis er hvor du skal "lande" 0-for toppen, mens speed er hastigheten
-var load = false;
 function ScrollToPoss(dis, speed) {
 	var dir = Math.ceil(window.scrollY/100)*100;
 	console.log(dir);
@@ -21,10 +20,12 @@ function ScrollToPoss(dis, speed) {
     }
 }
 
-function MoveNavBar(id, limit) {
-		var objar = document.getElementsByTagName(id);
-		var obj = objar[0];
+function MoveNavBar(id, head) {
+		var obj = document.getElementsByTagName(id)[0];
 		var pos = window.scrollY;
+		var objhed = document.getElementById(head);
+		var limit = objhed.offsetHeight;
+		console.log(limit);
 	
 		if(pos < limit) {
 			obj.style.position = "relative";
