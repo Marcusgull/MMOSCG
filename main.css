@@ -5,7 +5,10 @@ body {
 }
 /* Components
    ====================================== */
-
+p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+}
 .header {
     display: flex;
     flex-direction: row;
@@ -61,13 +64,17 @@ body {
 }
 
 .content {
-	width: 90%;
-	background-color: white;
+	width: 100%;
+    padding: 0 5%;
 }
-
-#Title {
-	width: 70%;
-	text-align: center;
-	font-family: Indie Flower;
-	font-size: 80px;
+.article {
+    background-color: white;
+    padding: 20px;
+    
+}
+.article img {
+    max-width: 100%;
+}
+.container {
+    width: 90%;
 }
