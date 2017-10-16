@@ -31,6 +31,7 @@ function MoveNavBar(id, limit) {
 		}
 		else {
 			obj.style.position = "fixed";
+			obj.style.width = "100%";
 			obj.style.top = "0";
 		}
 }
