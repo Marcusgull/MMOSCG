@@ -96,9 +96,13 @@ p{
 .article-item {
     padding: 10px 20px;
 }
-.container {
-    width: 90%;
+
+@media screen and (max-width: 768px) {
+    .article-row {
+        flex-direction: column;
+    }
 }
+
 footer {
 	width: 90%;
 	padding: 1%;
