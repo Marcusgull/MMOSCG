@@ -96,3 +96,15 @@ p{
 .article-item {
     padding: 10px 20px;
 }
+.container {
+    width: 90%;
+}
+footer {
+	width: 90%;
+	padding: 1%;
+	background-color: #caccce;
+    height: 10%;
+    padding: 1%;
+    margin: 1%;
+    margin-bottom: 0;
+}
