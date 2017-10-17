@@ -1,8 +1,13 @@
 //Funskjonen virker som en smooth-scroll når gitt argumentene dis og speed
 //Dis er hvor du skal "lande" 0-for toppen, mens speed er hastigheten
-function ScrollToPoss(dis, speed) {
+function ScrollToPoss(elem, speed) {
+	if (elem === parseInt(elem, 10))
+		var dis = elem;
+	else {
+		var el = document.getElementById(elem);
+		var dis = Math.ceil((el.offsetTop - el.offsetHeight- 200)/100)*100;
+	}
 	var dir = Math.ceil(window.scrollY/100)*100;
-	console.log(dir);
 	if (dir < dis) {
 		var dr = 100;
 	}
