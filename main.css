@@ -103,12 +103,12 @@ p{
     }
 }
 
-footer {
-	width: 90%;
-	padding: 1%;
-	background-color: #caccce;
-    height: 10%;
-    padding: 1%;
-    margin: 1%;
-    margin-bottom: 0;
+.footer {
+    padding: 40px 10%;
+    background-color: #fff;
+    border-top: 2px solid #d3d3d3;
+}
+
+.footer-row {
+    align-items: baseline;
 }
