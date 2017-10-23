@@ -108,6 +108,12 @@ p{
     background-color: #fff;
     border-top: 2px solid #d3d3d3;
 }
+.flex-foot-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 .footer-row {
     align-items: baseline;
